@@ -25,6 +25,14 @@ My ability to learn and to gain new skills will lead me through this path of bec
 ** Code example:**
 ---
 
+ ```
+    function  rangeOfNumbers(startNum, endNum) { 
+    if (endNum < startNum) { return []; } else { 
+    const numbers = rangeOfNumbers(startNum, endNum - 1); 
+    numbers.push(endNum); 
+    return numbers; } }
+```
+
 **Courses**
 ---
  - The Rolling Scopes School Course «JavaScript/Front-end. Stage 0» (in progress)
@@ -35,28 +43,45 @@ My ability to learn and to gain new skills will lead me through this path of bec
 **Education**
 ---
 Kharkiv State Academy of Culture
+
 Berdiansk College of Engineering
 
 **Projects**
 ---
 Build a Survey Form
+
 Build a Tribute Page
+
 Build a Technical Documentation Page
+
 Build a Product Landing Page
+
 Build a Personal Portfolio Webpage
+
 Landing-page Project
+
 Portfolio Project
+
 Weather Project
+
 Dictionary Project
+
 Clock Project
+
 Hobby Project
+
 Travel Project
+
 Volunteer Project
 
 **English**
 ---
 A-2 - Pre-Intermediate [EnglishDom](https://www.englishdom.com/ua/cn/0ec93c1f)
+
 Russian - Native
+
 Ukrainian - Native
+
 Polish - Basic
+
 Germany - Basic 
