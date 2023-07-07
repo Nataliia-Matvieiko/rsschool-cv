@@ -1,0 +1,151 @@
+body {
+    background: -webkit-linear-gradient(#EA3068, #FF8989);
+    margin: 0;
+}
+
+.navbar {
+    background-color: mistyrose;
+    font-size: 20px;
+    height: 35px;
+    padding: 10px 20px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    background: -webkit-linear-gradient(#EA3068, #FF8989);
+    -webkit-background-clip: text;
+    font-size: 24px;
+    padding: 10px 20px;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar a:hover {
+    background: #4f35ab;
+    -webkit-background-clip: text;
+    font-size: 24px;
+    padding: 10px 20px;
+    -webkit-text-fill-color: transparent;
+}
+
+nav a {
+    background: rgb(79, 53, 171);
+    -webkit-background-clip: text;
+    font-size: 18px;
+    padding: 10px 20px;
+    -webkit-text-fill-color: transparent;
+}
+
+nav a:hover {
+    background: #FF8989;
+    -webkit-background-clip: text;
+    font-size: 18px;
+    padding: 10px 20px;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    background: #f3ecec;
+    color: #373A43;
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+}
+
+header div img {
+    border-radius: 50%;
+    margin-top: 70px;
+    width: 150px;
+}
+
+h2 {
+    background: -webkit-linear-gradient(#EA3068, #FF8989);
+    -webkit-background-clip: text;
+    font-size: 24px;
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    border-color: #FF8989;
+    width: 70%;
+}
+
+a {
+    color: #4f35ab;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EA3068;
+    text-decoration: none;
+}
+
+em {
+    color: #EA3068;
+}
+
+code {
+    background-color: rgba(224, 176, 229, 0.78);
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.summary-content {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+footer img {
+    margin: 0 auto;
+    width: 100px;
+}
+
+footer {
+    bottom: 0;
+    height: 120px;
+}
+
+.info-field {
+    font-size: 14px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+        display: none;
+    }
+
+    .container {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar {
+        display: none;
+    }
+
+    .container {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar {
+        display: none;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    .summary-content {
+        width: 200px;
+    }
+}
